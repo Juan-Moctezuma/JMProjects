@@ -1,167 +1,339 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-
 <head>
 	<title>Juan Moctezuma's Projects</title>
-	<link href="main.css" rel="stylesheet" type="text/css">
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link href="main.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>
 
-<body background="Website Material/2560x1440-light-gray-solid-color-background-1.jpg">
-	<header>
-		<h1><left>JUAN MOCTEZUMA'S</left></h1>
-		<h1><left>PROJECTS</left></h1>
-			<p>This site contains a brief description about some of my projects and general skills. The links at the bottom of the page will redirect you to my Github repositories where you will be able to find my projects' files. Enjoy!</p>
-	</header>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top"> <!--switch '-default' to standard-->
+	<div class="container">
+		<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button> <!-- This button is the 'hamburger' when minimize window-->
+			<a href="index.html" class="navbar-brand"> 
+			JMProjects</a> <!-- Company Name -->
+		</div>
+		<div class="collapse navbar-collapse" id="bs-nav-demo"> <!-- this id comes from data-target-->
+			<ul class="nav navbar-nav">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="secondary.html">About Me</a></li> <!-- left next button to explore -->
+				<li><a href="certificates.html">Certificates</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
 
-		<hr noshade><br>
+<header class="Intro">
+	<h1 id="MainHeader"><left>Juan Moctezuma's Projects</left></h1>
+		<p class="Paragraph">Welcome! This site contains a brief description about some of the author's projects within the Home page. Information regarding skills and abilities can be found on the About Me page of this website. All current certificates were obtained through Udemy. The links within each section of the page will redirect you to my Github repositories where you will be able to find my projects' files. To find the titles of each project, please observe the list below.</p><br>
+	<ol>
+		<li>Uber Data Analysis Project</li>
+		<li>Text File Comparer Automation Project</li>
+		<li>Data Processing and Database Project</li>
+		<li>Marketing Survey</li>
+		<li>Three-D Computer Aided Design (CAD) Projects</li>
+		<li>The Bio-inspired Glucose Detector</li>
+		<li>The Growth Rate of Plants Over Small Surfaces/Volumes</li>
+	</ol>
+</header>
+
+<hr noshade class="Hr"><br>
  
-			<div class="Data_Analysis">
-			<strong>1. Uber Data Analysis Project</strong><br>
-				<p>This study is based entirely on the results of an 8-month period (from May 2017 - December 2017) project in which a simple survey along with the recorded data from an independent contractor’s mobile application (Uber partner/driver app) brought together my study’s main dataset. I personally collected this information by asking the passengers the following questions: “Where are you from originally?” and “What do you like the most about San Diego?”. The intention of this study is to compile, visualize and interpret data in order to learn what aspect of the City of San Diego, California individuals considered to be the most appealing. </p>
-				<p>Extra Note:
-				<br>I didn't create the images below nor any other related pictures contained within my project that were directly obtained from Uber's websites.</p>
-				<div class="uberpic">
-				<center>
-					<img src="Website Material/Dice Chart/uber.jpg" width="330px" height="300px" border="0" align="left">
-					<img src="Website Material/Dice Chart/unnamed.png" width="330px" height="310px" border="0">
-					<img src="Website Material/Dice Chart/uber_picture_3.png" width="460px" height="310px" border="0">
-				</center></div>
-				</div><br><br>
-		<hr noshade><br>		
+<div class="Data_Analysis">
+	<h2 class="Header">Uber Data Analysis Project</h2>
+		<p class="Paragraph">This study is based entirely on the results of an 8-month period (from May 2017 - December 2017) project in which a simple survey along with the recorded data from an independent contractor’s mobile application (Uber partner/driver app) brought together my study’s main dataset. I personally collected this information by asking the passengers the following questions: “Where are you from originally?” and “What do you like the most about San Diego?”. The intention of this study is to compile, visualize and interpret data in order to learn what aspect of the City of San Diego, California individuals considered to be the most appealing. </p>
+	<div class="row">
+		<div class="col-lg-4 col-sm-6">
+			<img class="thumbnail" src="Website Material/Uber Project/uber.jpg" width="330px" height="330px">
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<img class="thumbnail" src="Website Material/Uber Project/unnamed.png" width="330px" height="330px">
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<img class="thumbnail" src="Website Material/Uber Project/uber_picture_3.png" width="330px" height="330px">
+		</div>
+	</div><br>
+		<p class="Paragraph">The data was compiled in a Microsoft Excel spreadsheet. When the data exploration and cleaninsing phase of my analysis was completed during 2018, the appealing aspects were categorized as the following: W (weather), P (people), O (other) and N/A. In addition, other applications such as Tableau Public and some Microsoft Office tools were used to complete this study.</p>
+	<div class="row">
+		<div class="column">
+			<img class="thumbnail" src="Website Material/Uber Project/Screen Shot 2019-12-12 at 10.03.11 AM.png" width="530px" height="350px">
+				<div class="description"><font size="1" color="#787878"><em>Only data from columns A, B, D, E, G, H, and I, were extracted from the Uber Driver Mobile App. Columns C, F and J,<br> contain information obtained from the author. Column K represents the survey's results.</em></font></div>
+		</div>
+		<div class="column">
+			<img class="thumbnail" src="Website Material/Uber Project/Screen Shot 2018-01-17 at 11.17.50 PM.png" width="530px" height="350px">
+				<div class="description"><font size="1" color="#787878"><em>The final dataset was exported in Tableau Public and results demonstrated that most passengers (which represent a<br> random population sample) consider that the weather is San Diego's best attribute.</em></font></div>
+		</div>
+	</div><br>
+		<p class="Paragraph">In this project we were not only able to observe a pattern regarding the city's favorable weather, this study also allowed the author the opportunity to observe other trends such as the passenger's drop off zones' zip codes or the most visited neighborhoods based on the riders' demand.</p>
+	<div class="row">
+		<div class="col-lg-4 col-sm-6">
+			<img class="thumbnail" src="Website Material/Uber Project/Screen Shot 2018-01-18 at 9.57.45 PM.png" width="360px" height="290px">
+				<div class="description"><font size="1" color="#787878"><em>This image was generated using Tableau Public and represents every drop-off<br> zone or zip code visited during the data exploration phase of the project.</em></font></div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<img class="thumbnail" src="Website Material/Uber Project/Screen Shot 2019-12-12 at 9.48.27 AM.png" width="360px" height="290px">
+				<div class="description"><font size="1" color="#787878"><em>The chart demonstrates that UberX service or "private trips" are more common<br> than UberPOOL rides. POOL service started in June 2017, that is why May has<br> zero rides throughout UberPOOL.</em></font></div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<img class="thumbnail" src="Website Material/Uber Project/Screen Shot 2019-12-12 at 9.49.15 AM.png" width="360px" height="290px">
+				<div class="description"><font size="1" color="#787878"><em>Downtown San Diego is the passengers' favorite destination and SAN Airport<br> despite not being a neighborhood itself and a specific location, is a common<br> drop-off location as well.</em></font></div>
+		</div>
+	</div><br>
+		<p class="Paragraph"><em><a href="https://github.com/Juan-Moctezuma/Uber-Data-Analysis-Project" style="text-decoration:none" target="_blank">Click here to learn more about the Uber Data Analysis Project</a></em></p>
+</div>
 
-			<div class="Data_Processing_and_Database_Project">
-			<strong>2. Data Processing and Database Project</strong><br>
-				<p>The purpose of this project is to describe the steps required to obtain raw data from a source and convert the information into quality, presentable and understandable data available for Microsoft Excel and eventually to get stored into a database. The data source is simply a digital thermometer built with an Arduino circuit board along with other electrical components. In addition, to get information loaded into a database created with SQL, data requires to be formatted appropriately to assure that it gets stored with no errors. Each step along the process required knowledge in C/C++, Python, Microsoft Excel - Macro, Microsoft Excel - VBA, and SQL. </p>
-				<div class="projectpics">
-				<center>
-					<img src="Website Material/Data Processing/Arduino_Connection_Schematic.png" width="300px" height="300px" border="0">
-					<img src="Website Material/Data Processing/Arduino_IDE_Platform.png" width="310px" height="300px" border="0">
-					<img src="Website Material/Data Processing/Arduino_Front_View.JPG" width="310px" height="300px" border="0">
-				</center><br>
-				<center>
-					<img src="Website Material/Data Processing/Python_IDE_Platform.png" width="490px" height="300px" border="0">
-					<img src="Website Material/Data Processing/Python_OUTPUT_Txt_File.png" width="430px" height="300px" border="0">
-				</center></br>
-				<center>
-					<img src="Website Material/Data Processing/Macro_Code.png" width="450px" height="380px" border="0">
-					<img src="Website Material/Data Processing/Macro_Processed_Data_Results.png" width="450px" height="380px" border="0">
-				</center></br>
-				<center>
-					<img src="Website Material/Data Processing/PostgreSQL_RECORDED_ROOM_TEMP_TABLE.png" width="580px" height="280px" border="0">
-					<img src="Website Material/Data Processing/PostgreSQL_FINAL_RESULTS.png" width="350px" height="280px" border="0">
-				</center>
-				</div>
-				</div><br><br>
-				 	
+<hr noshade class="Hr"><br>		
 
-		<hr noshade><br>		
+<div class="Automation_Project">
+	<h2 class="Header">Text File Comparer Automation Project</h2>
+		<p class="Paragraph">The author came up with the idea after observing that data delivered on a quarterly basis followed identical trends. One out of the several tasks as a Data Analyst was to compare several text files by manually manipulating data on Microsoft Excel (spreadsheet) prior to updating a mobile application known as <em>Market Metrics</em>. At the beginning of each quarter, some clients would deliver a list of their ‘Broker Dealer Exclusion IDs’ or ‘BDE IDs’ that were related to certain data/transactions that each client did not want to see in their account linked with the mobile app. As part of the process, these lists (or txt files) containing the BDE IDs were compared to those lists submitted by each iPad client during the previous quarter. This was manually done by aligning each column of data and inserting a 3rd column with boolean datatype (True or False).
+		</p>
+	<div class="row">
+		<div class="col-lg-4 col-sm-6">
+			<img class="thumbnail" src="Website Material/Python Automation Project/Screen Shot 2019-12-16 at 12.42.11 PM.png" width="420px" height="290px">
+				<div class="description"><font size="1" color="#787878"><em>The first step was to obtain the text files from the current and previous quarter.</em></font></div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<img class="thumbnail" src="Website Material/Python Automation Project/Screen Shot 2019-12-16 at 5.47.54 PM.png" width="420px" height="290px">
+				<div class="description"><font size="1" color="#787878"><em>Each row of data from the text file gets copied and pasted into an Excel spreadsheet.</em></font></div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<img class="thumbnail" src="Website Material/Python Automation Project/Screen Shot 2019-12-16 at 5.24.44 PM.png" width="420px" height="290px">
+				<div class="description"><font size="1" color="#787878"><em>Then the Analyst would typically copy and paste several text files into a spreadsheet and drag<br> a boolean formula in order to make sure that the Exclusion IDs match, and if not, then figure<br> out why. </em></font></div>
+		</div>
+	</div><br>
+		<p class="Paragraph">This process may not seem too difficult and it may not require advanced knowledge in Microsoft Excel, however, it is time consuming and unnecessary. There is no denying that most technical processes are still required to be performed by humans, but it is both more time and resource efficient to have a Python script or code that can handle copying and pasting large amounts of data from different paths (with several folders within), and display the results in a matter of seconds!
+		</p>
+	<div class="row">
+		<div class="column">
+			<img class="thumbnail" src="Website Material/Python Automation Project/Screen Shot 2019-12-16 at 7.37.44 PM.png" width="650px" height="125px">
+				<div class="description"><font size="1" color="#787878"><em>Once the code starts running, it will prompt the user/analyst to enter the name of his/her client and the current quarter, by default the code will<br> automatically pick the select the previous quarter.</em></font></div>
+		</div>
+		<div class="column">
+			<img class="thumbnail" src="Website Material/Python Automation Project/Screen Shot 2019-12-16 at 12.40.05 PM.png" width="650px" height="125px">
+				<div class="description"><font size="1" color="#787878"><em>The code will seek through the folder paths depending on the user's input and will extract data from each corresponding text file.</em></font></div>
+		</div>
+	</div><br>
+	<div class="row">
+		<div class="column">
+			<img class="thumbnail" src="Website Material/Python Automation Project/Screen Shot 2019-12-16 at 12.33.02 PM.png" width="650px" height="175px">
+				<div class="description"><font size="1" color="#787878"><em>The script takes the data from the text files and stores it into lists; then it will create a 3rd list containing boolean datatype once the current<br> and previous quarter lists get compared. The three lists get aligned with each other and results get printed out at the end.</em></font></div>
+		</div>
+		<div class="column">
+			<img class="thumbnail" src="Website Material/Python Automation Project/Screen Shot 2019-12-16 at 12.34.49 PM.png" width="600px" height="325px">
+		</div>
+	</div><br>
+	<div class="row">
+		<div class="col-lg-4 col-sm-6">
+			<img class="thumbnail" src="Website Material/Python Automation Project/Screen Shot 2019-12-16 at 12.40.45 PM.png" width="1250px" height="490px">
+				<div class="description"><font size="1" color="#787878"><em>The section of the image being point at by the red arrow represents the final result after the automation was finally completed. The image to the left represents a spreadsheet completed manually.</em></font></div>
+		</div>
+	</div>
+		<p class="Paragraph"><em><a href="https://github.com/Juan-Moctezuma/Text-File-Comparer-Automation-Project" style="text-decoration:none" target="_blank">Click here to learn more about the Python Text Comparer Automation Project</a></em></p>
+</div>
 
-			<div class="Dice">
-			<strong>3. Dice Sum Chart</strong><br>
-				<p>This code was written in Java (programming language), and it rolls 2 dice, each labeled as die 1 and 2, three million times and displays a chart showing the number of times we obtained a sum from each face. The row and column numbered from 1 to 6 represent the pair of dice and the computer will always show different outcomes everytime the program gets runned. So we could either obtain 2,3 or any number until 12, just a few thousand times!</p>
-				<div class="dicepic">
-				<center>
-					<img src="Website Material/Dice Chart/Screen Shot 2018-01-21 at 5.01.46 PM.png" width="380px" height="400px" border="0" align="left">
-					<img src="Website Material/Dice Chart/Screen Shot 2018-01-21 at 5.03.02 PM.png" width="380px" height="400px" border="0">
-				</center></div>
-				</div><br><br>
+<hr noshade class="Hr"><br>	
 
-		<hr noshade><br>		
+<div class="Data_Processing_and_Database_Project">
+	<h2 class="Header">Data Processing and Database Project</h2>
+		<p class="Paragraph">The purpose of this technical project is to describe the steps required to obtain raw data from a source (in this case a digital thermometer) and convert the information throughout a series of steps into quality, presentable and understandable data available for Microsoft Excel which eventually gets stored into a database.</p>
+	<div class="row">
+		<div class="col-lg-4 col-sm-6">
+			<img class="thumbnail" src="Website Material/Data Processing/Arduino_IDE_Platform.png" width="360px" height="350px">
+				<div class="description"><font size="1" color="#787878"><em>The Arduino application is open-source. The user can program the board<br> before wiring the components. Writing the code is the first step.</em></font></div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<img class="thumbnail" src="Website Material/Data Processing/Arduino_Connection_Schematic.png" width="360px" height="350px" style="margin-left: 30px">
+				<div class="description" style="margin-left: 30px"><font size="1" color="#787878"><em>This diagram represents the way in which the Arduino UNO board must get<br> wired, so that the circuit can mimic a digital thermometer. The diagram can be<br> modified depending on how the user decides how the UNO board will input<br> electricity into the circuit. Connecting or wiring UNO is the second step.</em></font></div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<img class="thumbnail" src="Website Material/Data Processing/Arduino_Front_View.JPG" width="360px" height="350px" style="margin-left: 60px">
+				<div class="description" style="margin-left: 60px"><font size="1" color="#787878"><em>This is a picture of an operational Arduino thermometer; it displays results in<br> Celsius and Fahrenheit. Code gets loaded into the circuit once this is connected<br> via USB. The third step is to verify that results are being displayed correctly.</em></font></div>
+		</div>
+	</div><br>
+		<p class="Paragraph">After the thermometer was connected and working accordingly, a python script linking the author's computer and the device, was created out of scratch. The function of this code is to extract real-time data, link each data point to a timestamp and convert each point into a row that gets pasted in a plain text file. The platform used for creating the python code was PyCharm CE.</p>
+	<div class="row">
+		<div class="column">
+			<img class="thumbnail" src="Website Material/Data Processing/Python_IDE_Platform.png" width="540px" height="400px">
+				<div class="description"><font size="1" color="#787878"><em>The fourth step was to create the code that could compile the data from the thermometer. As the python code<br> runs, data is getting inserted into a plain text file.</em></font></div>
+		</div>
+		<div class="column">
+			<img class="thumbnail" src="Website Material/Data Processing/Python_OUTPUT_Txt_File.png" width="540px" height="400px">
+				<div class="description"><font size="1" color="#787878"><em>As you may notice in this picture, each row of data consists of the following: degrees Celsius, degrees<br> Fahrenheit, date (in MM/DD/YYYY format) and time (in HH/MM/SS format).</em></font></div>
+		</div>
+	</div><br>	
+		<p class="Paragraph">After the python script completes it's function, an Excel macro takes care of processing and arranging the data accordingly. It is not possible to load the data directly from the raw data file since this got imported into a text file with commas. In order for the data to meet the database's format requirements, the components need to get split into several columns with the appropriate format.</p>
+	<div class="row">
+		<div class="column">
+			<img class="thumbnail" src="Website Material/Data Processing/Macro_Code.png" width="540px" height="420px">
+				<div class="description"><font size="1" color="#787878"><em>The fifth step was to record a macro since importing the .txt file and processing each column into an Excel spreadsheet<br> consisted of performing repetitive steps.</em></font></div>
+		</div>
+		<div class="column">
+			<img class="thumbnail" src="Website Material/Data Processing/Macro_Processed_Data_Results.png" width="540px" height="420px">
+				<div class="description"><font size="1" color="#787878"><em>This is the final result. Once the Macro processed the data, the spreadsheet or Excel file is ready to get loaded into the<br> database.</em></font></div>
+		</div>
+	</div><br>
+		<p class="Paragraph">The final step was to create a small relational database using SQL. This database was designed to accept decimal numbers corresponding to temperature in Celcius and Fahrenheit; and both time and date in the appropriate format. The last condition that data must meet is that rows cannot have any null values.</p>
+	<div class="row">
+		<div class="column">
+			<img class="thumbnail" src="Website Material/Data Processing/PostgreSQL_RECORDED_ROOM_TEMP_TABLE.png" width="520px" height="230px">
+				<div class="description"><font size="1" color="#787878"><em>The sixth step was to create the SQL database adjusted to accept raw real time data from the thermometer only.<br> Once that step is completed data can get loaded and it becomes viewable. However this can be see by writing a<br> query that selects all data from every column that corresponds to the recorded room temperature.</em></font></div>
+		</div>
+		<div class="column">
+			<img class="thumbnail" src="Website Material/Data Processing/PostgreSQL_FINAL_RESULTS.png" width="510px" height="350px">
+		</div>
+	</div><br>	
+		<p class="Paragraph"> Each step along the process required knowledge in C/C++, Python, Microsoft Excel - Macro, Microsoft Excel - VBA, and SQL. Please recall that to get information loaded into a database created with SQL, information requires to be formatted appropriately to assure that it gets stored with no errors and to mantain the quality of the data. </p>
+	<p class="Paragraph"><em><a href="https://github.com/Juan-Moctezuma/Data-Processing-and-Database-Project/tree/master/Data-Processing-and-Database-Project" style="text-decoration:none" target="_blank">Click here to learn more about the Data Processing and Database Project</a></em></p>
+</div>
 
-			<div class="static/dynamic">
-			<strong>4. Airspeed Gauge and Altimeter</strong><br>
-				<p>The code (also written in Java) shows how high an airplane is flying and displays 4 out of the 5 different types of speed (doesn't include ground speed) measured in a real aircraft. The code simulates data provided by a "sensor" (the user's input). This mini-project is an example of Applied Mathematics at it's finest! The reason being that Physics' concepts are required in order for the computations to make sense.</p> 
-				<p>Extra Note:
-				<br>The user must input the air's speed, temperature, air density and ambient pressure.</p>
-				<center>
-					<img src="Website Material/Airspeed Gauge/Screen Shot 2018-01-21 at 4.12.08 PM.png" width="380px" height="400px" border="0" align="left">
-					<img src="Website Material/Airspeed Gauge/Screen Shot 2018-01-21 at 4.15.23 PM.png" width="380px" height="400px" border="0">
-				</center>
-				</div><br><br>
+<hr noshade class="Hr"><br>		
 
-		<hr noshade><br>
+<div class="Survey">
+	<h2 class="Header">Marketing Survey</h2>
+		<p class="Paragraph">The goal of this short psychographic survey (written in Java as well) is to learn where people want to travel. This could be used by advertising firms in order to benefit airlines or a country's tourism sector, since this data could allow researchers to have a better understanding of a population's favorite vacation spots. This project does not include a Powerpoint presentation nor a writing sample/research paper. The only sample available on the author's Github repository is the actual code titled as the following: survey.java.</p>
+	<div class="row">
+		<div class="col-lg-4 col-sm-6">
+			<img class="thumbnail" src="Website Material/Uber Project/puteshestviia-turizm-poster-kollazh.jpg" width="360px" height="300">	
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<img class="thumbnail" src="Website Material/Uber Project/Screen Shot 2018-01-21 at 10.25.20 PM.png" width="360px" height="300px">	
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<img class="thumbnail" src="Website Material/Uber Project/phpThumb_generated_thumbnail.jpg" width="340px" height="300px">
+		</div>
+	</div><br>
+		<p class="Paragraph"><em><a href="https://github.com/Juan-Moctezuma/Programming-Projects" style="text-decoration:none" target="_blank">Click here to see the Marketing Survey code</a></em></p>
+</div>
 
- 			<div class="Survey">
-			<strong>5. Marketing Survey</strong><br>
-				<p>The goal of this short psychographic survey (written in Java as well) is to learn where people want to travel. This could be used by advertising firms in order to benefit airlines or a country's tourism sector, since this data could allow researchers to have a better understanding of a population's favorite vacation spots.</p>
-				<div class="surveypic">
-				<center>
-					<img src="Website Material/Dice Chart/Screen Shot 2018-01-21 at 10.25.20 PM.png" width="680px" height="330px" border="0">
-				</center></div>
-				</div><br><br>
+<hr noshade class="Hr"><br>		
 
-		<hr noshade><br>		
+<div class="Cad">
+	<h2 class="Header">Three-D Computer Aided Design (CAD) Designs</h2>
+		<p class="Paragraph">The following section will include images of some objects that were designed by the author with solid modeling software. Modern mechanical and aerospace engineers, industrial designers, technical draftsman and even hobbyists use this type of applications to create objects that are commonly seen in our daily lives. Although there are many applications that serve the same purpose, the only ones that have been used by the author are the following: Creo Parametric, SolidWorks and Fussion 360. By definition, isometric view is when the drawing of an object has all of its lines set to have a 30 degree angle with respect to their axis; meaning that a drawing of an object is slightly shifted so that it could look like a 3D object instead of a 2D drawing. Exploded view refers to an assembly (group of parts that forms an object/machine/tool) that has all of it's components separated at a distance relative to each other or to its origin an xyz cartesian system.</p>
+	<div class="row">
+		<div class="column">
+			<img class="thumbnail" src="Website Material/CAD/Arbor Press/Creo_Arbor_Press_Isometric_View.PNG" width="480px" height="440px">
+				<div class="description"><font size="1" color="#787878"><em>Arbor Press designed with Creo Parametric with an Isometric view.</em></font></div>
+		</div>
+		<div class="column">
+			<img class="thumbnail" src="Website Material/CAD/Arbor Press/Creo_Arbor_Press_Exploded_View.PNG" width="480px" height="440px">
+				<div class="description"><font size="1" color="#787878"><em>Arbor Press designed with Creo Parametric with an Exploded view.</em></font></div>
+		</div>
+		</div><br>
 
-			<div class="cad">
-			<strong>6. Three-D Computer Aided Design (CAD) Designs</strong><br>
-				<p>The following section will include images of some objects that were designed with solid modeling software. The arbor press (in Isometric and Exploded View) was made with Creo Parametric and SolidWorks. The extinguisher was created with Fusion 360.</p>
-				<p>Extra Note:
-				<br>The fire extinguisher model corresponds to the following brand: <em>Sentron</em>.</p>
-				<div class="cadpic">
-				<center>
-					<img src="Website Material/CAD/Arbor Press/Creo_Arbor_Press_Isometric_View.PNG" width="300px" height="260px" border="0">
-					<img src="Website Material/CAD/Arbor Press/Creo_Arbor_Press_Exploded_View.PNG" width="300px" height="260px" border="0">
-				</center>
-				<center>
-					<img src="Website Material/CAD/Arbor Press/SolidWorks_Arbor_Press_Isometric_View.PNG" width="350px" height="300px" border="0">
-					<img src="Website Material/CAD/Arbor Press/SolidWorks_Arbor_Press_Exploded_View.PNG" width="350px" height="300px" border="0">
-					<img src="Website Material/CAD/Arbor Press/SolidWorks_Arbor_Press_Gear_Component_Drawing.PNG" width="320px" height="300px" border="0">
-				</center>
-				<center>
-					<img src="Website Material/CAD/extinguisher/Screen Shot 2017-02-17 at 1.51.52 PM.png" width="300px" height="250px" border="0">
-					<img src="Website Material/CAD/extinguisher/Screen Shot 2017-02-17 at 1.53.12 PM.png" width="300px" height="250px" border="0">
-					<img src="Website Material/CAD/extinguisher/Screen Shot 2017-02-17 at 1.53.51 PM.png" width="220px" height="250px" border="0">
-				</center><br>
-				</div>
-				</div><br><br>
+	<div class="row">
+		<div class="col-lg-4 col-sm-6">
+			<img class="thumbnail" src="Website Material/CAD/Arbor Press/SolidWorks_Arbor_Press_Isometric_View.PNG" width="350px" height="300px">
+				<div class="description"><font size="1" color="#787878"><em>Arbor Press designed with SolidWorks with an Isometric view.</em></font></div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<img class="thumbnail" src="Website Material/CAD/Arbor Press/SolidWorks_Arbor_Press_Exploded_View.PNG" width="350px" height="300px">
+				<div class="description"><font size="1" color="#787878"><em>Arbor Press designed with SolidWorks with an Exploded view.</em></font></div>	
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<img class="thumbnail" src="Website Material/CAD/Arbor Press/SolidWorks_Arbor_Press_Gear_Component_Drawing.PNG" width="350px" height="300px">
+				<div class="description"><font size="1" color="#787878"><em> This represents the draft of a gear component from Arbor Press designed<br> with SolidWorks.</em></font></div>
+		</div>
+		</div>
+		<br>
+	<div class="row">
+		<div class="col-lg-4 col-sm-6">
+			<img class="thumbnail" src="Website Material/CAD/extinguisher/Screen Shot 2017-02-17 at 1.53.12 PM.png" width="300px" height="250px">
+				<div class="description"><font size="1" color="#787878"><em>Extinguisher designed with Fusion 360 with an Isometric view.</em></font></div>	
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<img class="thumbnail" src="Website Material/CAD/extinguisher/Screen Shot 2017-02-17 at 1.51.52 PM.png" width="300px" height="250px">
+				<div class="description"><font size="1" color="#787878"><em>Detailed picture of the extinguisher's carrying handle, discharge<br> lever, handler, valve assemply and the posterior side of the pressure<br> gauge.</em></font></div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<img class="thumbnail" src="Website Material/CAD/extinguisher/Screen Shot 2017-02-17 at 1.53.51 PM.png" width="260px" height="250px">
+				<div class="description"><font size="1" color="#787878"><em> This is the extinguisher's lateral view. The carrying handle,<br> discharge lever, handler, valve assemply, the pressure<br> gauge and the pull pin are visible.</em></font></div>
+		</div>
+		</div><br>
+	<p>Please note the following:</p>
+	<ul>
+		<li>No Powerpoint presentations or writing samples were created for these projects.</li>
+		<li>The fire extinguisher model corresponds to the following brand: <em>Sentron</em>.</li>
+		<li>Only files corresponding to the arbor press (for both the assembly and technical drawings in SolidWorks and Creo) are available in the author's Github repository.</li>
+		<li>Unfortunately, the files for the extinguisher designed with Fusion 360 are not available in the repository.</li>
+	</ul><br>		
+	<p class="Paragraph"><em><a href="https://github.com/Juan-Moctezuma/Computer-Aided-Design-Projects" style="text-decoration:none" target="_blank">Click here to find the files for 3D Solid Modeling Projects</a></em></p>
+</div>
 
-		<hr noshade><br>		
+<hr noshade class="Hr"><br>		
 
-			<div class="bio_photonic">
-			<strong>7. The bio-inspired glucose detector based on a photonic crystal</strong><br>
-				<p>This was our final senior project for an Optics course and it made us physically interpret what the given Matlab code was displaying. Our job was to modify some aspects of the code and understand the way light traveled throughout the crystal, so we could hypothetically invent a sensor that works by using these principles to measure the amount of glucose contained within any substance. We came up with the idea of a small device that had its surface covered with aluminum-oxide barbs (or tiny cylinders like ones from the image below). The picture represents the microscopic structure of a Peacock's feather. Unfortunately, we don't have an image of the device, however, we concluded that the greater the angle in which light got bend in presence of the sensor's barbs, implied that the more glucose was contained in whatever substance (or solution).</p>
-				<center>
-					<img src="Website Material/Bio Crystal/Screen Shot 2017-02-17 at 2.07.59 PM.png" width="250px" height="200px" border="0">
-				</center><br>
-				</div><br><br>
+<div class="Bio_Photonic">
+	<h2 class="Header">The Bio-inspired Glucose Detector</h2>
+		<p class="Paragraph">This was our final senior project for an Optics course and it made us physically interpret what the given Matlab code was displaying. Our job was to modify some aspects of the code and understand the way light traveled throughout a photonic crystal, so we could hypothetically invent a sensor that works by using these principles to measure the amount of glucose contained within any substance. We came up with the idea of a small device that had its surface covered with aluminum-oxide barbs (or tiny cylinders like ones from the image below). The picture represents the microscopic structure of a Peacock's feather. Unfortunately, we don't have an image of the hypothetical device, however, we concluded that the greater the angle in which light got bend in presence of the sensor's barbs, implied that the more glucose was contained in whatever substance (or solution). Note: This project does not include an extra link.</p>
+	<div class="row">
+		<div class="col-lg-4 col-sm-6">
+			<img class="thumbnail" src="Website Material/Bio Crystal/1984-9648-jatm-8-1-0007-gf04.jpg" width="350px" height="300px">
+				<div class="description"><font size="1" color="#787878"><em>Image of a flight feather.</em></font></div>	
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<img class="thumbnail" src="Website Material/Bio Crystal/Screen Shot 2017-02-17 at 2.07.59 PM.png" width="350px" height="300px">
+				<div class="description"><font size="1" color="#787878"><em>Aluminum barbs representing the "device's" structure that measures the angle<br> of light refraction as its covered with glucose and light travels throughout the<br> barbs.</em></font></div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<img class="thumbnail" src="Website Material/Bio Crystal/20130519-DSLR_IMG_0958-Edit.jpg" width="350px" height="300px">
+				<div class="description"><font size="1" color="#787878"><em> The structure of a Peacock's tail feather.</em></font></div>
+		</div>
+	</div><br><br>
+</div>
 
-		<hr noshade><br>		
+<hr noshade class="Hr"><br>		
 
-			<div class="Growth_plants">
-			<strong>8. The Growth Rate of Plants Over Small Surfaces/Volumes</strong><br>
-				<p>My non-supervised and discontinued project allowed me to apply different concepts related with: Calculus, Physics, Biology; and mostly First-Degree and Separable Elementary Differential Equations. So far, I was able to develop the formula below, and its goal was to predict how much time will these organisms live.</p>
-				<p>Extra Note:
-				<br>The parentheses represents multiplication. The notation below was written in LaTeX.</p>
-				<center>
-					<img src="Website Material/Growth of plants/Screen Shot 2017-02-27 at 11.46.53 AM.png" width="300px" height="350px" border="0">
-				</center>
-				</div><br><br>
+<div class="Growth_Plants">
+	<h2 class="Header">The Growth Rate of Plants Over Small Surfaces/Volumes</h2>
+		<p class="Paragraph">My non-supervised and discontinued project allowed me to apply different concepts related with: Calculus, Physics, Biology; and mostly First-Degree and Separable Elementary Differential Equations. The objective of the formula below was intended to predict how much time will these organisms live in small spaces. This project is based on the author's theory that a plant's lifespan can be predicted based on the exacts amount of water and a limited space. Please note that the parentheses represents multiplication. The notation below was written in LaTeX. Note: This project does not include an extra link.</p>
+	<div class="row">
+		<div class="column">
+			<img class="thumbnail" src="Website Material/Growth of plants/germ_pink_green-774488.jpg!d.jpeg" width="500px" height="450px">
+		</div>
+		<div class="column">
+			<img class="thumbnail" src="Website Material/Growth of plants/Screen Shot 2017-02-27 at 11.46.53 AM.png" width="400px" height="450px">
+		</div>
+	</div><br><br>
+</div>
 
-		<hr noshade><br>		
+<footer style="background-color: #212121;">
+	<div class="row">
+		<div class="col-lg-4 col-sm-6">
+			<h3 style="margin-left: 60px; color: #9D9D9D;">JMProjects DISCLAIMER</h3><br>
+				<p style="margin-left: 60px; color: #9D9D9D;"><font size="1">This is a non-for-profit website and the content intends to demonstrate Juan Leonardo Moctezuma-Flores' portfolio which includes the following: projects, ideas, abilities (technical and non-technical) and accomplished certificates. The author and creator of this website does not own any logo or downloaded images corresponding to Uber and Udemy. The author is not affiliated to the previously mentioned companies and does not intend to promote any product or services on behalf of these enterprises or any organization.</font></p><br><br>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<center>
+			<h3 style="color: #9D9D9D;">USEFUL LINKS</h3><br>
+				<a href="http://www.facebook.com/" style="text-decoration:none">Facebook</a><br><br>
+				<a href="http://www.google.com/" style="text-decoration:none">Google</a><br><br>
+				<a href="http://www.instagram.com/" style="text-decoration:none">Instagram</a><br><br>
+				<a href="http://www.linkedin.com/" style="text-decoration:none">LinkedIn</a><br><br>
+				<a href="http://www.twitter.com/" style="text-decoration:none">Twitter</a><br><br><br><br>
+				<h6 style="color: #FFFFFF;">Since 2018: Juan-Moctezuma.Github.io</h6>
+			</center>
+		</div>
+		<div class="col-lg-4 col-sm-6" style="padding-left: 50px">
+			<h3 style="color: #9D9D9D;">CONTACT</h3><br>
+				<p style="color: #9D9D9D"><i class="fas fa-home" style="padding-right: 10px"></i>  San Ysidro, CA 92173, US</p><br>
+				<p style="color: #9D9D9D"><i class="fas fa-envelope" style="padding-right: 10px"></i>  juan.moctezuma091@gmail.com</p><br>
+				<p style="color: #9D9D9D"><i class="fas fa-phone" style="padding-right: 10px"></i>  +1 (619) 948-1005</p><br>
+				<p style="color: #9D9D9D"><i class="fab fa-github-square" style="padding-right: 10px"></i><a href="https://github.com/Juan-Moctezuma/" style="text-decoration:none" target="_blank">Github Repositories</a></p><br>		
+		</div>
+	</div>
+</footer>
 
-			<div class="additional_info">
-			<strong>Additional Information</strong><br>
-			<p>
-				<ul>
-					<li>Other qualities: creative, detailed-oriented, self-motivated, organizational skills, problem-solving/critical thinking skills, team player and efficient time management.</li>
-					<li>Data Entry</li> 
-					<li>Fluent in Spanish</li>
-					<li>Basic laboratory skills in the following fields: Biology, Chemistry and Physics.</li>
-				</ul>
-			</p>
-			</div>
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="   crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-	<footer>
-		<h3>Thank You for visiting my website!</h3>
-		<ul>
-			<li><a href="https://github.com/Juan-Moctezuma/Uber-Data-Analysis-Project" style="text-decoration:none">Click here to learn more about my Uber Data Analysis Project</a></li>
-			<li><a href="https://github.com/Juan-Moctezuma/Data-Processing-and-Database-Project/tree/master/Data-Processing-and-Database-Project" style="text-decoration:none">Click here to learn more about my Data Processing and Database Project</a></li>
-			<li><a href="https://github.com/Juan-Moctezuma/Computer-Aided-Design-Projects" style="text-decoration:none">Click here to take a quick look at some of my 3D solid modeling projects</a></li>
-			<li><a href="https://github.com/Juan-Moctezuma/Programming-Projects" style="text-decoration:none">Click here to see the files used for the rest of my simpler programming projects</a></li>
-			<li><a href="http://www.google.com/?gl=us&hl=en&gws_rd=cr&pws=0" style="text-decoration:none">Click here to go to Google.com</a></li>
-		</ul>
-	</footer>
-	
 </body>
 </html>
