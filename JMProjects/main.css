@@ -1,0 +1,91 @@
+#MainHeader {
+	margin-top: 70px;
+	margin-bottom: 30px;
+	padding: 20px; 
+	background-color: #007BFF;
+	border-radius: 6px;
+} 
+
+#SecHeader {
+	margin-top: 70px;
+	margin-bottom: 30px;
+	padding: 20px; 
+	background-color: #66FF00;
+	border-radius: 6px;
+}
+
+#CertHeader {
+	margin-top: 70px;
+	margin-bottom: 30px;
+	padding: 20px; 
+	background-color: #F00000;
+	border-radius: 6px;
+}
+
+.Header {
+	color: #007BFF;
+	padding-bottom: 30px;
+} 
+
+.Intro {
+	margin-left: 40px;
+	margin-right: 40px;
+} 
+
+.Paragraph{
+	padding-bottom: 30px;
+} 
+
+.row{
+	padding-bottom: 25px;
+} 
+
+/*for grids with 2 columns. within row class*/
+.column {
+	float: left;
+	width: 50%;
+	padding: 5px;
+} 
+
+/* Projects */
+.Data_Analysis {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.Automation_Project {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.Data_Processing_and_Database_Project {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.Survey {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.Cad {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.Bio_Photonic {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.Growth_Plants {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+/*when shrink screen*/
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
