@@ -1,26 +1,91 @@
-header {
-    margin: 0;
+#MainHeader {
+	margin-top: 70px;
+	margin-bottom: 30px;
+	padding: 20px; 
+	background-color: #007BFF;
+	border-radius: 6px;
+} 
+
+#SecHeader {
+	margin-top: 70px;
+	margin-bottom: 30px;
+	padding: 20px; 
+	background-color: #66FF00;
+	border-radius: 6px;
 }
 
-
-h1{
-	margin: 0;
-	color: #3b3a30;
-	font-family: Avenir;
+#CertHeader {
+	margin-top: 70px;
+	margin-bottom: 30px;
+	padding: 20px; 
+	background-color: #F00000;
+	border-radius: 6px;
 }
 
-p, a, ul, li, h3{
+.Header {
+	color: #007BFF;
+	padding-bottom: 30px;
+} 
 
-	color: #3b3a30;
-	font-family: Avenir;
-}
-strong{
-	color: #3b3a30;
-	font-family: Avenir;
+.Intro {
+	margin-left: 40px;
+	margin-right: 40px;
+} 
+
+.Paragraph{
+	padding-bottom: 30px;
+} 
+
+.row{
+	padding-bottom: 25px;
+} 
+
+/*for grids with 2 columns. within row class*/
+.column {
+	float: left;
+	width: 50%;
+	padding: 5px;
+} 
+
+/* Projects */
+.Data_Analysis {
+	margin-left: 40px;
+	margin-right: 40px;
 }
 
-footer{
-	font-family: Avenir;
-	color: #3b3a30;
-	clear: both;
+.Automation_Project {
+	margin-left: 40px;
+	margin-right: 40px;
 }
+
+.Data_Processing_and_Database_Project {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.Survey {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.Cad {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.Bio_Photonic {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.Growth_Plants {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+/*when shrink screen*/
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
