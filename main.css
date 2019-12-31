@@ -1,3 +1,7 @@
+body {
+	background-color: #f8f9fa;
+}
+
 #MainHeader {
 	margin-top: 70px;
 	margin-bottom: 30px;
@@ -32,6 +36,14 @@
 	margin-right: 40px;
 } 
 
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index:2;
+}
+
 .Paragraph{
 	padding-bottom: 30px;
 } 
@@ -40,52 +52,53 @@
 	padding-bottom: 25px;
 } 
 
-/*for grids with 2 columns. within row class*/
 .column {
 	float: left;
 	width: 50%;
 	padding: 5px;
 } 
 
-/* Projects */
-.Data_Analysis {
+.Project_Section {
 	margin-left: 40px;
 	margin-right: 40px;
 }
 
-.Automation_Project {
-	margin-left: 40px;
-	margin-right: 40px;
+* {box-sizing: border-box;}
+
+.img-magnifier-container {
+  position:relative;
 }
 
-.Data_Processing_and_Database_Project {
-	margin-left: 40px;
-	margin-right: 40px;
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 100px;
+  height: 100px;
 }
 
-.Survey {
-	margin-left: 40px;
-	margin-right: 40px;
+/* xs */
+img {
+    width: 100px;
+    height: auto;
 }
-
-.Cad {
-	margin-left: 40px;
-	margin-right: 40px;
+/* sm */
+@media (min-width: 768px) {
+    img {
+        width: 150px;
+    }
 }
-
-.Bio_Photonic {
-	margin-left: 40px;
-	margin-right: 40px;
+/* md */
+@media (min-width: 992px) {
+    img {
+        width: 200px;
+    }
 }
-
-.Growth_Plants {
-	margin-left: 40px;
-	margin-right: 40px;
+/* lg */
+@media (min-width: 1200px) {
+    img {
+        width: 250px;
+    }
 }
-
-/*when shrink screen*/
-
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
