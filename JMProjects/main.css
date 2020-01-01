@@ -63,8 +63,6 @@ body {
 	margin-right: 40px;
 }
 
-* {box-sizing: border-box;}
-
 .img-magnifier-container {
   position:relative;
 }
@@ -101,4 +99,28 @@ img {
     img {
         width: 250px;
     }
+}
+
+@media screen and (max-width: 600px) {
+  #MainHeader, #SecHeader, #CertHeader {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  footer {
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.SecondaryBody {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .SecH3 {
+    font-size: 13px;
+  }
 }
