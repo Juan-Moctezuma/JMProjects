@@ -109,12 +109,18 @@ img {
 
 @media screen and (max-width: 600px) {
   footer {
-    font-size: 10px;
+    font-size: 9px;
   }
 }
 
 @media screen and (max-width: 600px) {
   div.SecondaryBody {
     font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .SecH3 {
+    font-size: 13px;
   }
 }
