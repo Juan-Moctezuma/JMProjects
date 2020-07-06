@@ -104,6 +104,7 @@
 							<div class="d-lg-block">
 								<p class="Paragraph">Welcome! This site contains a brief description about some of my projects within the <em>Home</em> page. Information regarding skills or abilities and certificates are found on the <em>About Me</em> and <em>Certificates</em> pages respectively. The links within each section of the Home page will redirect you to my Github repositories where you are able to find my projects' files. To find the projects, please see the list below.</p>
 								<ol>
+									<li>SQL JLMFCompany Project</li><br>
 									<li>Uber Data Analysis Project</li><br>
 									<li>Text File Comparer Automation Project</li><br>
 									<li>Data Processing and Database Project</li><br>
@@ -118,7 +119,7 @@
 							<div class="card">
 									<img class="img-fluid card-img-top" src="Website Material/About Me/imagination-innovation-idea-creative-genius-512.png" width="65%" height="65%" alt="">
 										<div class="card-body shadow-sm">
-											<p class="card-text"><em>
+											<p class="card-text"><em>“Innovation is seeing what everybody has seen and thinking what nobody has thought.” –Dr. Albert, Szent- Györgyi
 											</em>	
 											</p>
 										</div>
@@ -127,6 +128,192 @@
 					</div>
 			</section>
 		</header>
+
+		<hr noshade class="Hr"><br>
+
+		<div class="Project_Section">
+			<h2 class="Header">SQL JLMFCompany Project</h2>
+				<p class="Paragraph">The hypothetical goal of the fictitious enterprise - <em>JLMFCompany</em>, is to serve as a low-cost third party that allows clients to book flights with Expedia and/or reserve Airbnb listings. The purpose of this SQL (Structured Query Language) database is to store client information related with transactions done throughout the (non-existent) company’s platform – “<em>Expedia Airbnb App (EApp)</em>”.</p>
+			<section class="oneByThreeGallery">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-4 mb-4">
+							<div class="card">
+								<img class="card-img-top" src="Website Material/SQL Project1/Expedia-logo.jpg" width="330px" height="330px" alt="">
+									<div class="card-body shadow-sm">
+										<p class="card-text text-secondary"><em> Expedia is an online travel agency and metasearch engine. The website and mobile app can be used to book airline tickets, hotel reservations, car rentals, cruise ships, and vacation packages.
+										</em>
+										</p>
+									</div>
+							</div>
+						</div>	
+						<div class="col-lg-4 mb-4">
+							<div class="card">
+								<img class="card-img-top" src="Website Material/SQL Project1/database.png" width="330px" height="330px" alt="">
+									<div class="card-body shadow-sm">
+										<p class="card-text text-secondary"><em> The green, blue and red pillars represent databases or data storage units that may have data extracted throughout queries. SQL Relational databases (such as the one "JLMFCompany" has) are commonly used in every industry worldwide. SQL platforms (such as Azure) that allows a user to arrange and extract data throughout the use of queries.   	
+										</em>	
+										</p>
+									</div>
+							</div>
+						</div>
+						<div class="col-lg-4 mb-4">
+							<div class="card">
+								<img class="card-img-top" src="Website Material/SQL Project1/airbnb-logo.jpg" width="330px" height="330px" alt="">
+									<div class="card-body shadow-sm">
+										<p class="card-text text-secondary"><em> Airbnb is an online marketplace for arranging or offering lodging, primarily homestays, or tourism experiences. The company does not own any of the real estate listings, nor does it host events; it acts as a broker, receiving commissions from each booking.	
+										</em>	
+										</p>
+									</div>
+							</div>
+						</div>					
+					</div>			
+				</div>	
+			</section><br>
+				<p class="Paragraph">Every database requires to be planned and designed carefully with data models (diagrams), with the intention of making sure that there are no logical inconsistencies. The Entity Relationship Diagram (ERD) was created with Draw.io (diagramming application); and the platform used to upload each of the database's tables (components) was Azure Data Studio. 
+				</p>
+			<section class="oneByTwoGallery">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-6 mb-4">
+							<div class="card">
+								<img class="card-img-top" src="Website Material/SQL Project1/JLMFCompany_ERD.png" width="530px" height="350px" alt="">
+									<div class="card-body shadow-sm">
+										<p class="card-text text-secondary"><em> JLMFCompany's Data Model or diagram.	
+											</em>	
+										</p>
+									</div>
+							</div>
+						</div>	
+						<div class="col-lg-6 mb-4">
+							<div class="card">
+								<img class="card-img-top" src="Website Material/SQL Project1/JLMFCompany_ERD Description (Verdana).png" width="530px" height="350px" alt="">
+									<div class="card-body shadow-sm">
+										<p class="card-text text-secondary"><em> The image above represents the data model's description of symbols and colors. This section was created with Draw.io (diagramming application). Each box from the image to the left represents a table. The names of tables and columns are always written in uppercase and may include underscores. Some fields are optional therefore some cells may be left empty depending on the circumstances. Anyhow, most fields are mandatory and columns require to be filled appropriately with the correct format. 	
+										</em>	
+										</p>
+									</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section><br>
+				<p class="Paragraph">After the data model was successfully created, a SQL query that creates every table was ran in Azure Data Studio. Remember that tables are database objects that contain all the data in a database. In tables, data is logically organized in a row-and-column format similar to a spreadsheet. Each row represents a unique record, and each column represents a field in the record. Every table will have at least one field that relates to 1 or more tables within that same database.
+				</p>
+			<section class="oneByTwoGallery">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-6 mb-4">
+							<div class="card">
+								<img class="card-img-top" src="Website Material/SQL Project1/SQL_Create_Tables_Script.png" width="530px" height="350px" alt="">
+									<div class="card-body shadow-sm">
+										<p class="card-text text-secondary"><em>CREATE TABLE is the initial SQL command, followed by brackets that include each component and it's data type. Each column in a database table is required to have a name and a data type. There are string (text), numeric, and date / time data types.   	
+										</em>	
+										</p>
+									</div>
+							</div>
+						</div>	
+						<div class="col-lg-6 mb-4">
+							<div class="card">
+								<img class="card-img-top" src="Website Material/SQL Project1/AZURE_DASHBOARD.png" width="530px" height="350px" alt="">
+									<div class="card-body shadow-sm">
+										<p class="card-text text-secondary"><em>This dashboard represents the "company's" complete database.</em>	
+										</p>
+									</div></div><br>
+							<div class="card">
+								<img class="card-img-top" src="Website Material/SQL Project1/SQL_Create_Database_Script.png" width="230px" height="50px" alt="">
+									<div class="card-body shadow-sm">
+										<p class="card-text text-secondary"><em>This was the first SQL query required to initialize the database.
+										</em>	
+										</p>
+									</div>	
+							</div>
+						</div>
+					</div>
+				</div>
+			</section><br>
+				<p class="Paragraph">Once the database is ready, Excel (hence CSV) files can get loaded as long as these have fields that match the tables' requirements; Meaning that the files' columns need to have certain data types and meet other conditions. It is pretty common for businesses to study or do research based on trends/patterns found in their own stored data. The following pictures demonstrate some reasearch questions and their respective results. The questions' queries were ran on Azure Data Studio as well.    
+				</p>
+			<section class="oneByTwoGallery">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-6 mb-4">
+							<div class="card">
+								<img class="card-img-top" src="Website Material/SQL Project1/RESEARCH_QUESTION_1.png" width="530px" height="350px" alt="">
+									<div class="card-body shadow-sm">
+										<p class="card-text text-secondary"><em> Relevant SQL commands: FULL OUTER JOIN, WHERE, IS, NULL, AND. 	
+											</em>	
+										</p>
+									</div>
+							</div>
+						</div>	
+						<div class="col-lg-6 mb-4">
+							<div class="card">
+								<img class="card-img-top" src="Website Material/SQL Project1/RESEARCH_QUESTION_3.png" width="530px" height="350px" alt="">
+									<div class="card-body shadow-sm">
+										<p class="card-text text-secondary"><em> Relevant SQL commands: INNER JOIN, WHERE. 	
+										</em>	
+										</p>
+									</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="oneByTwoGallery">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-6 mb-4">
+							<div class="card">
+								<img class="card-img-top" src="Website Material/SQL Project1/RESEARCH_QUESTION_7.png" width="530px" height="350px" alt="">
+									<div class="card-body shadow-sm">
+										<p class="card-text text-secondary"><em> Relevant SQL commands: AS, WHERE, GROUP BY, HAVING, AND, ORDER BY, DESC. Relevant SQL functions: FORMAT(), SUM(), COUNT(). 	
+											</em>	
+										</p>
+									</div>
+							</div>
+						</div>	
+						<div class="col-lg-6 mb-4">
+							<div class="card">
+								<img class="card-img-top" src="Website Material/SQL Project1/RESEARCH_QUESTION_5.png" width="530px" height="350px" alt="">
+									<div class="card-body shadow-sm">
+										<p class="card-text text-secondary"><em> Relevant SQL commands: AS, JOIN, WHERE, AND, GROUP BY, ORDER BY, ASC. Relevant SQL functions: FORMAT(), ROUND(), SUM().	
+										</em>	
+										</p>
+									</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section><br>
+			<section class="oneByTwoGallery">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-6 mb-4">
+							<div class="card">
+								<img class="card-img-top" src="Website Material/SQL Project1/RESEARCH_QUESTION_6.png" width="530px" height="350px" alt="">
+									<div class="card-body shadow-sm">
+										<p class="card-text text-secondary"><em> Relevant SQL commands: AS, GROUP BY, UNION ALL. Relevant SQL functions: COUNT().  	
+											</em>	
+										</p>
+									</div>
+							</div>
+						</div>	
+						<div class="col-lg-6 mb-4">
+							<div class="card">
+								<img class="card-img-top" src="Website Material/SQL Project1/RESEARCH_QUESTION_4.png" width="530px" height="350px" alt="">
+									<div class="card-body shadow-sm">
+										<p class="card-text text-secondary"><em> Relevant SQL commands: AS, JOIN, WHERE, LIKE, GROUP BY, ORDER BY, DESC. Relevant SQL functions: FORMAT(), ROUND(), AVG().	
+										</em>	
+										</p>
+									</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section><br>
+				<p class="Paragraph"><em><a href="https://github.com/Juan-Moctezuma/SQL_JLMFCompany_Project" style="text-decoration:none" target="_blank">Click here to learn more about the SQL JLMFCompany Project</a></em></p>
+		</div>
 
 		<hr noshade class="Hr"><br>
 		
@@ -709,7 +896,7 @@
 	    		<div class="row justify-content-between">
 	      			<div class="col-lg-4 mt-md-0 mt-3"><!--style="position: relative; left: 0; right: 0;"-->
 	        			<h5 class="text-uppercase">JMProjects DISCLAIMER</h5>
-	        				<p><font size="-2">This is a non-for-profit website and the content intends to demonstrate Juan Leonardo Moctezuma-Flores' portfolio which includes the following: projects, ideas, abilities (technical and non-technical) and accomplished certificates. The author and creator of this website does not own any logo or downloaded images corresponding to Uber and Udemy. The author is not affiliated to the previously mentioned companies and does not intend to promote any product or services on behalf of these enterprises or any organization.</p></font>
+	        				<p><font size="-2">This is a non-for-profit website and the content intends to demonstrate Juan Leonardo Moctezuma-Flores' portfolio which includes the following: projects, ideas, abilities (technical and non-technical) and accomplished certificates. The author and creator of this website does not own any logo or downloaded images corresponding to Uber, Expedia, Airbnb and Udemy. The author is not affiliated to the previously mentioned companies and does not intend to promote any product or services on behalf of these enterprises or any organization.</p></font>
 	      			</div>
 	      			<hr class="clearfix w-100 d-md-none pb-3">
 	      			<div class="col-lg-4 mb-md-0 mb-3">
