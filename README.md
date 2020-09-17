@@ -22,4 +22,4 @@ No.
 1. HTML5
 2. CSS3:
    * Responsive Framework: Bootstrap 4
-3. Vanilla JavaScript
+3. Vanilla JavaScript (Embedded within index.html)
